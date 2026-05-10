@@ -1,0 +1,34 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment Variables
+# We block the actual .env file because it contains your private paths
+.env
+
+# Build outputs
+dist/
+out/
+*.tsbuildinfo
+
+# Automation & Session Data (CRITICAL: DO NOT PUSH)
+chrome_data/
+facebookcookies.json
+*.json
+# Exceptions: Allow config files and the env template
+!package.json
+!package-lock.json
+!tsconfig.json
+!jsconfig.json
+!.env.example
+
+# IDE / OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
