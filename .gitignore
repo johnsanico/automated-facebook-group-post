@@ -13,7 +13,7 @@ out/
 
 # Automation & Session Data (CRITICAL: DO NOT PUSH)
 chrome_data/
-facebookcookies.json
+facebookCookies.json
 *.json
 # Exceptions: Allow config files and the env template
 !package.json

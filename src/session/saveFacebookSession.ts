@@ -5,7 +5,7 @@ import * as readline from 'node:readline';
 
 async function saveFacebookSession(): Promise<void> {
     // Determine the save path from .env or use a default
-    const sessionPath = process.env.FACEBOOK_SESSION_PATH || './facebookcookies.json';
+    const sessionPath = process.env.FACEBOOK_SESSION_PATH || './facebookCookies.json';
     
     // Path for the temporary browser profile
     const userDataDir = path.join(process.cwd(), 'chrome_data');
